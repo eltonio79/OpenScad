@@ -146,7 +146,7 @@ module Shell() {
                     }
                 }
             }
-            union() { // outbox sides decorations
+            union() { // outbox sides decorations (e.g. ventilation holes)
                 for(i = [0 : Thick : Length / 4]) {
                     // Ventilation holes
                     translate([10 + i, -Decoration_Thick + Decoration_Size, 1]) {
