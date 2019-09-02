@@ -8,3 +8,4 @@
 **/*.vsarduino.h
 **/*.vssscc
 **/nppBackup
+**/temp
