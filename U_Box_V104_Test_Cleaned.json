@@ -1,0 +1,32 @@
+{
+    "parameterSets": {
+        "design default values": {
+            "BPanL": "1",
+            "BShell": "1",
+            "Color1": "DarkRed",
+            "Color2": "DeepSkyBlue",
+            "Color3": "White",
+            "FPanL": "1",
+            "Filet": "3",
+            "FootHoleRadius": "2.1",
+            "Height": "40",
+            "Length": "152",
+            "PCBBoard": "1",
+            "PCBFootBottomRadius": "5.5",
+            "PCBFootHeight": "10",
+            "PCBFootTopRadius": "3.2",
+            "PCBPosX": "6.1",
+            "PCBPosY": "61",
+            "PCBRotZ": "-90",
+            "PCBStands": "1",
+            "Resolution": "1",
+            "TShell": "0",
+            "Thick": "2",
+            "ToleranceGapRailsToPanel": "0.9",
+            "Ventilation": "1",
+            "Ventilation_Width": "1.5",
+            "Width": "113"
+        }
+    },
+    "fileFormatVersion": "1"
+}

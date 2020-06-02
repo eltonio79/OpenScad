@@ -11,6 +11,7 @@ offsetPidryka = 6.0;
 sphereRadius = 475;
 
 //$fn=256;
+//$fn=128;
 $fn=128;
 
      
@@ -77,7 +78,7 @@ module roundedPanel()
             }
         }
         
-        
+        /*
         // logo's
         translate([0, 0, PromienKuli - (GruboscTopLogo / 2)]) { // logo
             wzorLogo("\u267B", GruboscTopLogo, RozmiarTopLogo - 3);
@@ -94,7 +95,7 @@ module roundedPanel()
         rotate([0, 0, 45]) {
             LogoObrot("♥", 77, PromienKuli, GruboscTopLogo, 5);
         }
-        
+        */
     }
 }
 
