@@ -1,0 +1,11 @@
+{
+    "fileFormatVersion": "1",
+    "parameterSets": {
+        "New set 1": {
+            "$fn": "200",
+            "sciankaX": "0.87000000000000011",
+            "sciankaY": "0.87000000000000011",
+            "sciankaZ": "0.32000000000000001"
+        }
+    }
+}

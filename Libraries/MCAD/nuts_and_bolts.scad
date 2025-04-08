@@ -96,7 +96,7 @@ METRIC_NUT_THICKNESS =
 	29.00//m36
 ];
 
-COURSE_METRIC_BOLT_MAJOR_THREAD_DIAMETERS =
+COARSE_THREAD_METRIC_BOLT_MAJOR_DIAMETERS =
 [//based on max values
 	-1, //0 index is not used but reduces computation
 	-1,
@@ -136,6 +136,9 @@ COURSE_METRIC_BOLT_MAJOR_THREAD_DIAMETERS =
 	-1,
 	35.940//m36
 ];
+
+// Deprecated, but kept around for people who use the wrong spelling.
+COURSE_METRIC_BOLT_MAJOR_THREAD_DIAMETERS = COARSE_THREAD_METRIC_BOLT_MAJOR_DIAMETERS;
 
 //Based on: http://www.roymech.co.uk/Useful_Tables/Screws/cap_screws.htm
 METRIC_BOLT_CAP_DIAMETERS =
@@ -201,7 +204,7 @@ module nutHole(size, units=MM, tolerance = +0.0001, proj = -1)
 
 module boltHole(size, units=MM, length, tolerance = +0.0001, proj = -1)
 {
-	radius = COURSE_METRIC_BOLT_MAJOR_THREAD_DIAMETERS[size]/2+tolerance;
+	radius = COARSE_THREAD_METRIC_BOLT_MAJOR_DIAMETERS[size]/2+tolerance;
 	capHeight = size+tolerance;
 	capRadius = METRIC_BOLT_CAP_DIAMETERS[size]/2+tolerance;
 

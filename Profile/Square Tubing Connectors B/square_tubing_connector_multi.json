@@ -1,0 +1,19 @@
+{
+    "fileFormatVersion": "1",
+    "parameterSets": {
+        "New set 1": {
+            "fittingType": "0",
+            "insideDim": "16",
+            "outsideDim": "20",
+            "protrusionLength": "20",
+            "roundoffRadius": "1"
+        },
+        "New set 2": {
+            "fittingType": "0",
+            "insideDim": "16.25",
+            "outsideDim": "20",
+            "protrusionLength": "22.5",
+            "roundoffRadius": "1"
+        }
+    }
+}
